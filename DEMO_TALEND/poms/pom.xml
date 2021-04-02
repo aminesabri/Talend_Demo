@@ -11,6 +11,11 @@
   <modules>
     <module>code/routines</module>
     <module>jobs/process/ventes__0.1</module>
+    <module>jobs/process/bigfiles_0.1</module>
+    <module>jobs/process/ventes_0.1</module>
+    <module>jobs/process/top3produits_0.1</module>
+    <module>jobs/process/commandes_0.1</module>
+    <module>jobs/process/copy_of_ventes_0.1</module>
   </modules>
   <properties>
     <talend.project.name>DEMO_TALEND</talend.project.name>
