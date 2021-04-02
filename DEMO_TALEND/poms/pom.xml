@@ -10,13 +10,19 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>code/routines</module>
+    <module>jobs/process/ventes__0.1</module>
+    <module>jobs/process/bigfiles_0.1</module>
+    <module>jobs/process/ventes_0.1</module>
+    <module>jobs/process/top3produits_0.1</module>
+    <module>jobs/process/commandes_0.1</module>
+    <module>jobs/process/copy_of_ventes_0.1</module>
   </modules>
   <properties>
     <talend.project.name>DEMO_TALEND</talend.project.name>
     <encoding>UTF-8</encoding>
     <talend.version>7.1.1</talend.version>
-    <maven.deploy.skip>true</maven.deploy.skip>
     <talend.docker.tag>${project.version}</talend.docker.tag>
+    <maven.deploy.skip>true</maven.deploy.skip>
     <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
   </properties>
   <build>
